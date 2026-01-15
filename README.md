@@ -29,7 +29,8 @@ ClinicFlow is not just an appointment booking app; it's a comprehensive SaaS sol
 
 #### 🏥 Doctor Portal (Web)
 
-- **Dashboard Analytics**: Real-time overview of patients, appointments, and revenue stats.
+* **Dashboard Analytics**: Real-time overview of patients, appointments, and revenue stats.
+
 * **Smart Calendar**: Drag-and-drop appointment management with daily, weekly, and monthly views.
 * **Patient Records**: Centralized database for patient history and contact details.
 * **Availability Manager**: Flexible scheduling system to set working hours and breaks.
@@ -38,7 +39,8 @@ ClinicFlow is not just an appointment booking app; it's a comprehensive SaaS sol
 
 #### 📱 Patient App (Mobile)
 
-- **One-Tap Booking**: Streamlined appointment booking process with instant confirmation.
+* **One-Tap Booking**: Streamlined appointment booking process with instant confirmation.
+
 * **Advanced Search**: Filter doctors by specialty, location, availability, and rating.
 * **Doctor Profiles**: Detailed views with bio, location map, and verified patient reviews.
 * **My Appointments**: Track upcoming visits and view past consultation history.
@@ -56,16 +58,12 @@ We have captured the full user experience in the following demos.
 
 *A native Android experience offering smooth navigation, edge-to-edge design, and intuitive booking flows.*
 
-👉 **[Watch Mobile Demo (MP4)](media/mobile-demo.mp4)**
-
 ![Mobile Demo](media/mobile-demo.gif)
 *(Fast-forwarded 2x for quick viewing)*
 
 ### 💻 Web Platform (Doctor Portal)
 
 *A comprehensive dashboard for healthcare professionals to manage their practice.*
-
-👉 **[Watch Web Demo (MP4)](media/web-demo.mp4)**
 
 ![Web Demo](media/web-demo.gif)
 *(Fast-forwarded 4x for quick viewing)*
@@ -111,18 +109,17 @@ This project is structured to scale into a multi-tenant SaaS.
 
 ## 📦 Repository Structure
 
-The project uses a clean monorepo structure for easy maintenance.
+The project is organized as a unified monorepo to streamline development and deployment.
 
 \`\`\`bash
 ClinicFlow-SaaS/
-├── mobile/     # 📱 The Native Android Project
-│   ├── android/    # Native Android code & config
-│   ├── src/        # Shared React Native-like UI code
-│   └── capacitor.config.ts
-├── web/        # 💻 The Web Dashboard
-│   ├── src/        # Dashboard & Landing Page logic
-│   └── vite.config.ts
-└── media/      # 📸 Demo Assets
+├── mobile/     # 📱 Native Android Project (Capacitor + React)
+│   ├── src/        # Mobile-first UI components & logic
+│   └── android/    # Native platform configuration
+├── web/        # 💻 Web Dashboard (Vite + React)
+│   ├── src/        # Admin & Doctor portal logic
+│   └── public/     # Static assets
+└── media/      # 📸 Project assets (Demo GIFs, Screenshots)
 \`\`\`
 
 ---
