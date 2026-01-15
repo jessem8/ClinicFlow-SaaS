@@ -39,6 +39,7 @@ ClinicFlow is not just an appointment booking app; it's a comprehensive SaaS sol
 
 #### 📱 Patient App (Mobile)
 
+* **🤖 Meet Salma (AI Assistant)**: A smart health companion that helps patients check symptoms, find the right specialist, and answers health-related queries 24/7.
 * **One-Tap Booking**: Streamlined appointment booking process with instant confirmation.
 
 * **Advanced Search**: Filter doctors by specialty, location, availability, and rating.
